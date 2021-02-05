@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+    int x = 3, y = 2;
+     printf("Before Swapping the values are: x = %d \n\t\t\t and  y = %d\n", x, y);
+
+    // Code to swap 'x' and 'y'
+    x += y; // x now becomes 5
+    y = x - y; // y becomes 3
+    x -=  y; // x becomes 2
+
+ 
+    printf("After Swapping the values we get: x = %d \n\t\t\t and  y = %d\n", x, y);
+    return 0;
+}
